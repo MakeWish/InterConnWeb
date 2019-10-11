@@ -1,0 +1,113 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container" >
+    <div class="row justify-content-center" >
+        <div class="col-md-8" >
+            <div class="card ">
+                <div class="card-header" style="background-color: #355723;   color:white;"> 
+                {{ __('SignUp') }}
+                <img src="{{URL::asset('/fingerprint.png')}}" width="70" height="50" >
+                </div>
+
+                <div class="card-body" style="color:#d39c2f; border:1px #355723 solid;">
+                    <form method="POST" action="{{ route('register') }}">
+                        @csrf
+
+                        <div class="form-group row" >
+                            <label for="firstname" class="col-md-4 col-form-label text-md-right">{{ __('Firstname') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="firstname" style="border:1px #d39c2f solid; " type="text" class="form-control @error('firstname') is-invalid @enderror" name="firstname" value="{{ old('firstname') }}" required autocomplete="firstname" autofocus>
+
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label for="lastname" class="col-md-4 col-form-label text-md-right">{{ __('Lastname') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="lastname" style="border:1px #d39c2f solid; " type="text" class="form-control @error('lastname') is-invalid @enderror" name="lastname" value="{{ old('lastname') }}" required autocomplete="lastname" autofocus>
+
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="email" style="border:1px #d39c2f solid; " type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password" style="border:1px #d39c2f solid; " type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="password-confirm"  class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" style="border:1px #d39c2f solid; " type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phonenumber" class="col-md-4 col-form-label text-md-right">{{ __('Phone Number') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="phonenumber" style="border:1px #d39c2f solid; " class="form-control @error('phonenumber') is-invalid @enderror" name="phonenumber" required autocomplete="phonenumber">
+
+                                @error('phonenumber')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                        <label for="role" class=" col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
+                            <div class="dropdown col-md-6 col-form-label text-md-right" >
+                                {!!  Form::select('role', ['farmer' => 'Farmer', 'admin' => 'Admin'], 'Farmer', ['class' => 'form-control', 'style'=>"border:1px #d39c2f solid; color:#d39c2f; "]) !!}
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary" style="background-color:#355723; color:white; ">
+                                    {{ __('Register') }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
