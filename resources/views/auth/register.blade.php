@@ -93,7 +93,7 @@
                         <div class="form-group row">
                         <label for="role" class=" col-md-4 col-form-label text-md-right">{{ __('Role') }}</label>
                             <div class="dropdown col-md-6 col-form-label text-md-right" >
-                                {!!  Form::select('role', ['farmer' => 'Farmer', 'admin' => 'Admin'], 'Farmer', ['class' => 'form-control', 'style'=>"border:1px #d39c2f solid; color:#d39c2f; "]) !!}
+                                {!!  Form::select('role', ['farmer' => 'Farmer/ Buyer/ Seller', 'agent' => 'Agent'], 'Farmer', ['class' => 'form-control', 'style'=>"border:1px #d39c2f solid; color:#d39c2f; "]) !!}
                             </div>
                         </div>
 
