@@ -14,17 +14,15 @@
 
     <!-- Libraries CSS Files -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/owl.carousel.css') }}" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
 
     </head>
     <body>
 
-
-  <!-- Hero -->
   <section class="hero">
     <div class="container text-center">
       <div class="col-md-12">
@@ -49,14 +47,11 @@
     </div>
 
   </section>
-  <!-- /Hero -->
 
-  <!-- Header -->
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use a text image -->
         <h1><a href="#">Interccon</a></h1>
       </div>
 
@@ -67,7 +62,6 @@
           <li><a href="#business">Our Business</a></li>
         </ul>
       </nav>
-      <!-- #nav-menu-container -->
 
       <nav class="nav social-nav pull-right d-none d-lg-inline">
         <a href="#"><i class="fa fa-twitter"></i></a> 
@@ -77,8 +71,6 @@
       </nav>
     </div>
   </header>
-  <!-- #header -->
-
 
       <section id="about" class="section-full about-us content-inner dez-about">
 			<div class="container">
@@ -368,15 +360,15 @@
 
     <!-- JavaScript Libraries -->
     
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/jquery-migrate.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/easing.min.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('js/superfish.min.js') }}"></script>
-    <script src="{{ asset('js/sticky.js') }}"></script>
-    <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery-migrate.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('js/easing.min.js') }}"></script>
+    <script src="{{ secure_asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ secure_asset('js/waypoints.min.js') }}"></script>
+    <script src="{{ secure_asset('js/superfish.min.js') }}"></script>
+    <script src="{{ secure_asset('js/sticky.js') }}"></script>
+    <script src="{{ secure_asset('js/custom.js') }}"></script>
 
     </body>
 </html>
