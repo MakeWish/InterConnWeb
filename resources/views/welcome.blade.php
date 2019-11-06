@@ -14,14 +14,15 @@
 
     <!-- Libraries CSS Files -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/owl.carousel.css" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
     </head>
     <body>
+
 
   <section class="hero">
     <div class="container text-center">
@@ -36,10 +37,10 @@
       </div>
 
       <div class="row">
-        <div class="col-md-3 ml-auto">
+        <div class="col-md-3 ml-auto mt-3">
             <a class="btn btn-full" href="/register">Get Started Now</a>
         </div>
-        <div class="col-md-3 mr-auto">
+        <div class="col-md-3 mr-auto mt-3">
             <a class="btn btn-full" href="/login">Already a member</a>
         </div>
       </div>
@@ -47,6 +48,7 @@
     </div>
 
   </section>
+
 
   <header id="header">
     <div class="container">
@@ -320,7 +322,7 @@
               © Interccon
             </p>
             <div class="credits">
-             Designed by <a href="https://makewishtech.heroku.com">Makewish Technologies</a>
+             Designed by <a href="https://makewishtech.herokuapp.com">Makewish Technologies</a>
             </div>
           </div>
 
@@ -360,15 +362,15 @@
 
     <!-- JavaScript Libraries -->
     
-    <script src="{{ secure_asset('js/jquery.min.js') }}"></script>
-    <script src="{{ secure_asset('js/jquery-migrate.min.js') }}"></script>
-    <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ secure_asset('js/easing.min.js') }}"></script>
-    <script src="{{ secure_asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ secure_asset('js/waypoints.min.js') }}"></script>
-    <script src="{{ secure_asset('js/superfish.min.js') }}"></script>
-    <script src="{{ secure_asset('js/sticky.js') }}"></script>
-    <script src="{{ secure_asset('js/custom.js') }}"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery-migrate.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/easing.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/superfish.min.js"></script>
+    <script src="/js/sticky.js"></script>
+    <script src="/js/custom.js"></script>
 
     </body>
 </html>
