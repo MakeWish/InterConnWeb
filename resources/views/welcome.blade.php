@@ -32,7 +32,7 @@
           </h1>
 
         <p class="tagline">
-          We are here to solve your agriculture solutions.
+          We are here to solve your agricultural trade problems.
         </p>        
       </div>
 
@@ -86,7 +86,7 @@
 								<h3 class="h3 ">About <span class="text-success">Interccon</span></h3>
 								<div class="clear"></div>
 							</div>
-							<p class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<p class="my-3">Are you looking for market for your produce? Or are you looking to purchase large quantities of agricultural produce? Then Interccon is the perfect solution for you. We <strong>Inter Connect</strong> farmers and produce buyers. We pay farmers handsomely for their produce and provide UNBS certified produce to our buyers.</p>
 							<div class="row my-3">
 								<div class="col-lg-4 col-md-4 col-sm-6">
 									<div class="icon-bx-wraper dashed rounded-lg">
@@ -102,7 +102,7 @@
 										<div class="text-success text-center p-4"> <a href="#" class="icon-cell"><i class="fa fa-industry"></i></a> </div>
 										<div class="icon-content text-center">
 											<h3 class="h5 text-success m-t10 m-b5"><span class="counter">620</span>+</h3>
-											<p>Registered Suppliers</p>
+											<p>Assured Buyers</p>
 										</div>
 									</div>
 								</div>
@@ -110,13 +110,13 @@
 									<div class="icon-bx-wraper dashed rounded-lg">
 										<div class="text-success text-center p-4"> <a href="#" class="icon-cell"><i class="fa fa-tasks"></i></a> </div>
 										<div class="icon-content text-center">
-											<h3 class="h5 text-success m-t10 m-b5"><span class="counter">1527</span>+</h3>
+											<h3 class="h5 text-success m-t10 m-b5"><span class="counter">527</span>+</h3>
 											<p>Field Agents</p>
 										</div>
 									</div>
 								</div>
 							</div>
-							<p class="my-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+							<p class="my-2">This platform has grown to have almost 2000 registered farmers and who have not yet been able to meet the supply needs of our growing buyers. We have increased our Field Agent staff to make sure every farmer is reached.</p>
 							<a href="#" class="btn btn-success">Read More</a>
 						</div>
 					</div>
@@ -129,7 +129,7 @@
           <div class="row">
               <div class="col-md-12 page-title text-center">
                   <h1>Our Services</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. </p>
+                  <p>We offer value for money to both farmers and buyers.<br>We save you the hustle of finding buyers/sellers.</p>
                   <hr class="pg-titl-bdr-btm">
               </div>
           </div>
@@ -141,9 +141,9 @@
                               <a href="#"><img src="https://images.pexels.com/photos/2135677/pexels-photo-2135677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></a>
                           </div>
                           <div class="post-content">
-                              <h3 class="post-title"><a href="#">Market Linkages</a></h3>
+                              <h3 class="post-title"><a href="#">Logistics</a></h3>
                               <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                  Have our trusted Logistics partners deliver your orders promptly and safely anywhere in the country.
                               </p>
                               <a href="#" class="btn btn-danger">read more</a>
                           </div>
@@ -155,7 +155,7 @@
                           <div class="post-content">
                               <h3 class="post-title"><a href="#">Market Linkages</a></h3>
                               <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                  We link registered farmers to a ready market of buyers for their produce any time any where.
                               </p>
                               <a href="#" class="btn btn-danger">read more</a>
                           </div>
@@ -165,9 +165,9 @@
                               <a href="#"><img src="https://images.pexels.com/photos/2257345/pexels-photo-2257345.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></a>
                           </div>
                           <div class="post-content">
-                              <h3 class="post-title"><a href="#">Market Linkages</a></h3>
+                              <h3 class="post-title"><a href="#">UNBS Certified</a></h3>
                               <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                  We have UNBS do the grading and certification of the produce enabling the farmer get their value's worth for their produce.
                               </p>
                               <a href="#" class="btn btn-danger">read more</a>
                           </div>
@@ -177,9 +177,9 @@
                               <a href="#"><img src="https://images.pexels.com/photos/2255793/pexels-photo-2255793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></a>
                           </div>
                           <div class="post-content">
-                              <h3 class="post-title"><a href="#">Market Linkages</a></h3>
+                              <h3 class="post-title"><a href="#">Convenience</a></h3>
                               <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                  You have market for your produce right at the tip of your fingers. Purchase quality produce in the comfort of your home.
                               </p>
                               <a href="#" class="btn btn-danger">read more</a>
                           </div>
@@ -189,9 +189,9 @@
                               <a href="#"><img src="https://images.pexels.com/photos/2893635/pexels-photo-2893635.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></a>
                           </div>
                           <div class="post-content">
-                              <h3 class="post-title"><a href="#">Market Linkages</a></h3>
+                              <h3 class="post-title"><a href="#">World Class Quality</a></h3>
                               <p class="post-description">
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                  Are you looking for export quality produce? We have UNBS certified World Market Grade produce for exporters and high-end buyers alike.
                               </p>
                               <a href="#" class="btn btn-danger">read more</a>
                           </div>
@@ -217,7 +217,7 @@
       </div>
       <div class="col-6">
         <h5>Create an account.</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        <p>Register now and be part of growing number of people looking to revolutionalize agricultural market processes through technology.</p>
       </div>
     </div>
     <!--path between 1-2-->
@@ -236,7 +236,7 @@
     <div class="row align-items-center justify-content-end how-it-works d-flex">
       <div class="col-6 text-right">
         <h5>Login to the application</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        <p>Log into your account today and start enjoying the convenience of market solutions at your finger tips.</p>
       </div>
       <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
         <div class="circle font-weight-bold">2</div>
@@ -261,7 +261,7 @@
       </div>
       <div class="col-6">
         <h5>Are you a buyer?</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        <p>Are you an exporter or are you looking to purchase quality agricultural produce in large quantities? Log in now and make that purchase and complete that order in the next 2 minutes.</p>
       </div>
     </div>
     <!--path between 3-4-->
@@ -280,7 +280,7 @@
     <div class="row align-items-center justify-content-end how-it-works d-flex">
       <div class="col-6 text-right">
         <h5>Are you a farmer?</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        <p>Simply add the quantities of Produce you have on your profile. Let our field agent verify the quantities. Have UNBS come grade and certify the produce and walk happily to the bank to withdraw your money.</p>
       </div>
       <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
         <div class="circle font-weight-bold">3.2</div>
@@ -305,8 +305,8 @@
         <div class="circle font-weight-bold">3.3</div>
       </div>
       <div class="col-6">
-        <h5>Are you a supplier?</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+        <h5>Are you a Transporter?</h5>
+        <p>Are you a logistics company or transport service provider? Partner with us to bring value to the Agricultural sector in Uganda.</p>
       </div>
     </div>
   </div>
@@ -354,7 +354,7 @@
   <div class="contant-no-area">
         <div class="contact-number">
             <h5>Have a question?</h5>
-            <h6>Contact: 0000000000</h6>
+            <h6>Contact: 0701637099</h6>
         </div>
     </div>
 
