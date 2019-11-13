@@ -49506,8 +49506,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\dell01\Desktop\InterConnWeb\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\dell01\Desktop\InterConnWeb\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Greatest\Desktop\code\interconn\navbar\interconnweb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Greatest\Desktop\code\interconn\navbar\interconnweb\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
