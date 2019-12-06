@@ -15,6 +15,13 @@
                     @endif
 
                     You are logged in!
+                    @if(Session::has('success'))
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="alert alert-danger">
+                                {{Session::get('success')}}
+                            </div>
+                        </div>
+                    @endif
                 </div>
             </div>
         </div>
