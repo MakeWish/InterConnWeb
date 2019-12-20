@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Model\User;
+use App\Profile;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -67,7 +69,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'firstname' => $data['firstname'],
             'lastname' => $data['lastname'],
             'role' => $data['role'],
@@ -75,5 +77,13 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
             'phonenumber' => $data['phonenumber'],
         ]);
+
+        Profile::create([
+            'user_id'   =>  $user->id,
+            'city'  =>  $data['city'] ?? '',
+            'district'   =>  $data['district'] ?? '',
+        ]);
+
+        return $user;
     }
 }
