@@ -1,0 +1,22 @@
+{
+    "name": "Interccon",
+    "repository": "https://github.com/MakeWish/interconnweb",
+    "success_url": "/",
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ],
+    "env": {
+        "APP_NAME": "Interccon",
+        "DB_CONNECTION": "psql",
+        "DB_PORT": 5432,
+        "MAIL_DRIVER": "smtp",
+        "MAIL_ENCRYPTION": "tls",
+        "MAIL_FROM_NAME": "Interccon",
+        "MAIL_HOST": "smtp.sendgrid.net",
+        "MAIL_PORT": "587",
+        "APP_DEBUG": false
+    },
+    "scripts": {
+        "postdeploy": "yes | php artisan migrate"
+    }
+}
