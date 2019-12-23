@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/change-password', 'ChangePasswordController@index');
+Route::post('/change-password', 'ChangePasswordController@store')->name('change.password');
